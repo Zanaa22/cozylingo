@@ -111,4 +111,4 @@ version will accompany the corresponding release.
 ## Contact
 
 Questions about this policy? Contact the developer at:
-**<contact@zanazzo.com>**
+**<fraglinkpro@gmail.com>**
