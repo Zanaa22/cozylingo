@@ -1,11 +1,11 @@
 # Privacy Policy — Cozylingo
 
-_Last updated: June 1, 2026_
+_Last updated: June 21, 2026_
 
 Cozylingo is a browser extension that explains the contextual meaning and
-translation of a word or phrase you select — on web pages and in PDFs you open
-in its built-in reader. This policy explains exactly what data the extension
-handles and where it goes.
+translation of a word or phrase you select — on web pages, in PDFs you open in
+its built-in reader, and in images you capture on screen. This policy explains
+exactly what data the extension handles and where it goes.
 
 **Short version:** Cozylingo does not collect, track, or sell your data. It has
 no analytics and no ads. The only information that leaves your device is the text
@@ -49,6 +49,14 @@ PDF files you open in Cozylingo's built-in reader are read and rendered
 **never uploaded** anywhere. Only a selected word and its surrounding sentence
 (as in #3) are sent for a lookup.
 
+**5. Text in images (OCR)**
+When you capture a region of the screen to read text inside an image (a photo,
+screenshot, meme, or scanned page), that image is processed **entirely on your
+device** using the bundled Tesseract.js engine (WebAssembly). The captured image
+is **never uploaded** anywhere. As with everything else, only the word or phrase
+you then select for a look-up — and its surrounding sentence (as in #3) — is sent
+to your configured provider.
+
 ---
 
 ## Third-party services
@@ -72,8 +80,8 @@ locally and makes no network requests.
 - No selling, renting, or sharing of personal data.
 - No collection of browsing history, and no reading of page content beyond the
   text you explicitly select for a look-up.
-- No remote code: all extension code, including PDF.js, ships in the package and
-  runs locally.
+- No remote code: all extension code, including PDF.js and the Tesseract.js OCR
+  engine, ships in the package and runs locally.
 
 ---
 
